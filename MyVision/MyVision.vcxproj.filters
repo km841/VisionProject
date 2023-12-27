@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{6225a025-76d7-4555-af72-9caea98d7b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Gui">
+      <UniqueIdentifier>{006c07a3-dc06-4e98-80e0-3944017c1f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{521fc99c-42e2-438e-9141-459e4eab7213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Gui\ImGui">
+      <UniqueIdentifier>{2a3539ac-40aa-4609-9f7c-ba930cfed4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Graphics">
+      <UniqueIdentifier>{b254adb4-1e88-4906-9e49-e871e37204c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\System">
+      <UniqueIdentifier>{b62ee2a8-b3e4-4658-a523-2df84702bfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Util">
+      <UniqueIdentifier>{b3836e84-2a04-4955-a163-a64db8ffaa46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Resource">
+      <UniqueIdentifier>{4af00c39-8b5b-415f-a3b5-281235d36850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Manager">
+      <UniqueIdentifier>{c3ffd132-028d-407f-b282-517865c637b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shader">
+      <UniqueIdentifier>{e21e8c0c-c9e7-4d3e-bccb-96bacb62feb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Gui\Widget">
+      <UniqueIdentifier>{0e32b348-0ac1-435b-91db-688537cc9386}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VisionGui.h">
+      <Filter>소스 파일\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>소스 파일\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVision.h">
+      <Filter>소스 파일\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>소스 파일\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumDefine.h">
+      <Filter>소스 파일\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>소스 파일\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayWidget.h">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryWidget.h">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyWidget.h">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFileDialog.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFileDialogConfig.h">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MyVision.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VisionGui.cpp">
+      <Filter>소스 파일\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>소스 파일\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>소스 파일\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVision.cpp">
+      <Filter>소스 파일\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\Core\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>소스 파일\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayWidget.cpp">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryWidget.cpp">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyWidget.cpp">
+      <Filter>소스 파일\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiFileDialog.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyVision.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Resources\Shader\DefaultShader.fx">
+      <Filter>소스 파일\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\Params.fx">
+      <Filter>소스 파일\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
